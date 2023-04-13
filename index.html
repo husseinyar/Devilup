@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Devilup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+ 
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+ 
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+   
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+       
+        <li><a href="#Service">SERVICES</a></li>
+      
+        <li><a href="#footer">CONTACT</a></li>
+      </ul>
+      <div class="logo"> <a href="#about"><span>Devilup Consultants</span> <br> Recruitment SELECTION </a></div>
+    </div>
+  </div>
+</nav>
+
+    <div class="jumbotron">
+      <div class="imgeDive">
+        <img src="images/b2.jpg" alt="about">
+      </div>
+      <div class="title">
+        <h1 > <span class="col-h1">DEVIL UP Recruitment </span> AND <br> SELECTION SLOGAN</h1>
+        <a href="#botten"><button type="button" class="btn  btn-danger" id="consultantsClick">consultants</button></a> 
+      </div>
+     
+    </div>
+
+    <!-- Container (Service page one Section)  start-->
+    <div class="about-Services" id="servicepag">
+      <h2>The Freelancers</h2>
+        <div class="col-sm-2 backtoService ">
+          <a href="#portfolio"   id="backtoService" title="To Top" style="position: fexed ;">
+          <span class="glyphicon glyphicon-chevron-left">Go back Home</span>
+        </a>
+        </div>
+            
+            <div class="col-sm-10 context">
+            
+            <ol>
+                <li>Content creation: Whether you need blog posts, articles, social media posts, or website copy, I can create high-quality, engaging content that will help you attract and retain customers. </li>
+                <li>Graphic design: From logos and branding to infographics and web design, I can create eye-catching visuals that will help your business stand out.</li>
+                <li>Social media management: I can help you develop and implement a social media strategy that will increase your online presence and engagement with your audience./li>
+                <li>SEO optimization: I can help you optimize your website for search engines, improving your visibility and helping you reach more potential customers.</li>
+                <li>Virtual assistance: If you need help with administrative tasks like scheduling, email management, or data entry, I can provide efficient and reliable support.</li>
+                <li>Video production: From script writing to filming and editing, I can create professional-quality videos to promote your business or showcase your products or services.</li>
+                <li>Translation services: If you need to communicate with customers or clients in another language, I can provide accurate and effective translation services.</li>
+              </ol>
+              <p>Overall, as a freelancer, I can offer you flexibility, personalized attention, and a commitment to delivering high-quality work that meets your specific needs. So if you're looking for a reliable and talented partner to help you grow your business, look no further than a freelancer like me.</p>
+          </div>
+    </div>
+
+    </div>
+      <!-- Container (Service page one Section)  Eend-->
+        <!-- Container (Consultants page one Section)  start-->
+        <div class="froms-consultants" id="froms-consultants">
+
+         <div class="froms-c" id="botten">
+                  <form id="froms-consultant">
+                    <fieldset>
+                      <legend>Pleace fill in your interests</legend>
+                    
+                      <div>
+                        <label>
+                          <input type="checkbox" id="music" name="interest" value="music" />
+                          Part  time
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input type="checkbox" id="art" name="interest" value="art" />
+                          full time
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          location
+                          <select name="sweden" id="sweden">
+                            <option value="0">the whole of Norway</option>
+                            <option value="1">the whole of sweden</option>
+                            <option value="2">OSLO</option>
+                            <option value="3">Sockholm</option>
+                          </select>
+                          
+                        </label>
+                      </div>
+                  
+                      <div>
+                        <label>
+                          How many years’ experience
+                        <input type="text" id="otherValue" name="other" size="1" />
+                      </label>
+                    </div>
+                    <div>
+                      <label>
+                        What field/industry they are in
+                      <input type="text" id="otherValue" name="other" size="30" />
+                    </label>
+                      </div>
+                      <div>
+                        <label>
+                        Write your LinkedIn link.
+                        <input type="text" id="otherValue" name="other" size="30" />
+                      </label>
+                        </div>
+                      <div>
+                        <!-- Container (Contact Section)  behöves att function arbete-->
+                        <button type="submit"  onclick="myFunction()" >Submit form</button>
+                      </div>
+                    </fieldset>
+                  </form>
+           </div>
+      </div>
+         <!-- Container (Consultants page one Section)  end-->
+    <div class="main" id="main">
+      
+    <!-- Container (About Section) -->
+    <div id="about" class="container-fluid">
+      <div class="row" id="row">
+        <div class="col-sm-5 image-section" >
+          <img src="images/about.png" alt="">
+        </div>
+        <div class="col-sm-6 content" id="content">
+          <h2 class="col-h1 ">About Us</h2><br>
+          <h4>Devilup Recruitment & Selection!</h4><br>
+          <p> Is all about the people. Recruitment is among the most strategic things a manager does. And the competition within the field of Tech & IT engineering is often considerable, and it’s 
+            crucial to not only take action with speed but to select the best people</p>
+          <br><button class="btn btn-default btn-lg">Get in Touch</button>
+        </div>
+      
+      </div>
+    </div>
+
+
+      
+  <div class="container-pars">
+    <div class="row text-center ">
+      <div class=" progress-postion"  >
+        <div class="progress blue ">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                  <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">90%</div>
+              
+          </div>
+          <div class="progress-tilte"><h4>Founded</h4></div>
+      </div>
+
+      <div class="progress-postion">
+        <div class="progress blue">
+            <span class="progress-left">
+              <span class="progress-bar"></span>
+            </span>
+            <span class="progress-right">
+                <span class="progress-bar"></span>
+            </span>
+            <div class="progress-value">80%</div>
+            
+        </div>
+        <div class="progress-tilte"><h4>Customers</h4></div>
+    </div>
+    <div class="progress-postion">
+      <div class="progress blue">
+          <span class="progress-left">
+            <span class="progress-bar"></span>
+          </span>
+          <span class="progress-right">
+              <span class="progress-bar"></span>
+          </span>
+          <div class="progress-value">90%</div>
+          
+      </div>
+      <div class="progress-tilte"><h4>New Developers</h4></div>
+  </div>     
+
+  </div>
+  </div>
+
+
+<!-- Container (Service Section) -->
+  <div id="Service" class="container-fluid portfolio text-center bg-grey">
+    <h2>Portfolio</h2><br>
+    <h4>What we have created</h4>
+    <div class="row text-center slideanim">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="images/iteams2.png" alt="Paris" width="400" height="300">
+          <p><strong>Recruitment & Selection</strong></p>
+          <p>Recruitment is among the most strategic things a manager does. Competition for talent is often considerable, and it is crucial to select the best people. “Aptitude” is about identifying a natural potential. Only by seeing people in an actual situation can you find the actual potential. Sometimes the actual potential is found where you least expect it.
+            It's important to use a mix of recruitment methods to attract a diverse pool of candidates,
+      </p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="images/itmes1.png" alt="New York" width="400" height="300">
+          <p><strong>Training and development</strong></p>
+          <p>When changes are to occur quickly, it is important that the organisation’s employees have the skills required to realise the enterprise’s objectives. Therefore, it is necessary to succeed in reskilling and upskilling. We use DeviLAB.™ to achieve faster and more durable effects of competence development.,
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="images/itmes1.png" alt="San Francisco" width="400" height="300">
+          <p><strong>The Freelancers</strong></p>
+          <p>Web development: Freelance web developers create 
+            and maintain websites and web applications, including front-end and back-end development.,
+        </p>
+        <br><button class="btn btn-default   btn-lg" id="Freelancers">Get in Touch</button>
+        </div>
+      </div>
+    </div><br>
+    
+    <h2>What our customers say</h2>
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+        </div>
+        <div class="item">
+          <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+        </div>
+        <div class="item">
+          <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+        </div>
+        </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- Container (Contact Section) -->
+   <div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <h2 class="col-h1">Start building your team today.</h2>
+      <p class="p-content">Join the companies leveraging the know-how of our software engineers world-wide to deliver superior software.</p>
+      
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <!-- Container (Contact Section)  behöves att function arbete-->
+          <button class="btn btn-default pull-right" onclick="myFunction()" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+      </div>
+     </div>
+
+<!-- Image of location/map -->
+
+  <div class="footer" id="footer">
+  <div class="row">
+    <div class="col-sm-7" id="reght">
+      <div class="leftrow">
+      
+        <div class="footer-title">
+            <h1>Contact</h1>
+        </div>
+   
+   <p> <span class="spans">Phone</span> +475650897</p>
+   <p> <span class="spans">Phone</span>WILHELMSGATE 1, 0168 OSLO</p>
+   <button style="cursor:pointer;"> Privacy</button>
+   
+</div>
+    </div>
+    <div class="col-sm-5" id="left">
+      <div class="footer-title">
+        <h1>Sharing</h1>
+       <span class="posnter"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-right-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.854 5.146a.5.5 0 1 0-.708.708L9.243 9.95H6.475a.5.5 0 1 0 0 1h3.975a.5.5 0 0 0 .5-.5V6.475a.5.5 0 1 0-1 0v2.768L5.854 5.146z"/></span> 
+        </svg>
+    </div>
+ 
+         
+        <div class="links">
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34"fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg>
+         </div>
+
+    </div>
+  </div>
+      </div>
+</div>
+<script src="index.js"></script>
+
+</body>
+</html>
