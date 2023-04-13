@@ -530,7 +530,21 @@ cursor: pointer;
   .btn-lg {
     width: 100%;
     margin-bottom: 35px;
+    background-color: #cac2c0;
   }
+  .jumbotron {
+   height: 100vh;
+   bottom: 20px;
+   background: transparent;
+
+  }
+  .jumbotron img{
+   height: 97vh;
+   object-position: center;
+
+
+   }
+  
   .froms-consultants {
     width: 250px;
     font-size: 12px;
@@ -551,7 +565,7 @@ cursor: pointer;
   text-align: center;
   justify-items: center;
   display: block;
-  text-justify: initial;
+
  }
  #about #row #content{
    margin: auto;
@@ -573,7 +587,15 @@ cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: #000;
+    
   }
+   .container-pars  .progress-postion{
+   background-color: whitesmoke;
+   box-shadow: 10px 5px 5px;
+  }
+  .container-pars .row{
+    background-color: whitesmoke;
+   }
 }
 .logo{
 font-size: 12px;
